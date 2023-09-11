@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="land.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet"> 
+    <!-- Add this in the <head> section of your HTML -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/javascript/javascript.min.js"></script>
+    <title>Your Replit-Like Landing Page</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Your Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to Your Coding Playground</h1>
+        <p>Write code, run it, and learn!</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <img src="feature1.png" alt="Feature 1 Icon">
+            <h2>Code Editor</h2>
+            <p>Write and edit your code in real-time.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.png" alt="Feature 2 Icon">
+            <h2>Run Code</h2>
+            <p>Execute your code and see the results instantly.</p>
+        </div>
+        <!-- Add more features as needed -->
+    </section>
+    
+    <section class="code-editor">
+        <h2>Code Editor</h2>
+        <select id="language">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <!-- Add more language options -->
+        </select>
+        <textarea id="code"></textarea>
+        <button id="run-button">Run</button>
+    </section>    
+    
+    <section class="output">
+        <h2>Output</h2>
+        <pre id="output-area"></pre>
+    </section>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="footer-info">
+            &copy; 2023 Your Company
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
